@@ -11,10 +11,14 @@ The make setup command will report the device major number:
 ```kernbuf module loaded with device major number 236```
 
 Make a directory entry using he major number:
-```sudo mknod /dev/kernbuf c 236 0```
+```
+sudo mknod /dev/kernbuf c 236 0
+```
 
 Then set the permissions so the device is writable:
-```sudo chmod a+w /dev/kernbuf```
+```
+sudo chmod a+w /dev/kernbuf
+```
 
 # Try is out:
 ```
