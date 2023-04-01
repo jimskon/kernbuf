@@ -6,7 +6,7 @@ all:
 clean:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
 
-test:
+setup:
 	# We put a — in front of the rmmod command to tell make to ignore
 	# an error in case the module isn’t loaded.
 	-sudo rmmod kernbuf
