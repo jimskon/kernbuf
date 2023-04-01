@@ -10,7 +10,7 @@ The make setup command will report the device major number:
 
 ```kernbuf module loaded with device major number 236```
 
-Make a directory entry using he major number:
+Make a directory entry using the major number:
 ```
 sudo mknod /dev/kernbuf c 236 0
 ```
