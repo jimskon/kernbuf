@@ -1,5 +1,5 @@
 # kernbuf
-A Linux kernal module design to store and retrieve data from a queue.
+A Linux kernel module design to store and retrieve data from a queue.
 
 # Setup
 make

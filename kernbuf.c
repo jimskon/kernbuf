@@ -165,7 +165,7 @@ static ssize_t device_read(struct file * flip, char * buffer, size_t len, loff_t
         return tlen;
 }
 
-/* Process a write to the kernal module */
+/* Process a write to the kernel module */
 static ssize_t device_write(struct file * flip,
         const char * buffer, size_t len, loff_t * offset) 
         {
