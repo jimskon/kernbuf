@@ -181,7 +181,7 @@ static ssize_t device_write(struct file * flip,
 
         enqueue_q( & q, ptr, len);
         return len;
-        printk(KERN_INFO "Char: Received %zu characters from the user\n", len);
+        //printk(KERN_INFO "Char: Received %zu characters from the user\n", len);
         return len;
 
         //printk(KERN_ALERT "This operation is not supported.\n");
